@@ -1,0 +1,19 @@
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VM artifacts and installers (huge, never belong in the repo)
+*.vmdk
+*.vmem
+*.vmsn
+*.vmss
+*.vmx
+*.nvram
+*.iso
+*.ova
+*.log
+
+# Anything explicitly marked local/sensitive
+*local-only*
+*secrets*
